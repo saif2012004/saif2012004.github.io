@@ -897,9 +897,16 @@
       Reach out — I'd love to hear what you're building.
     </p>
     <div class="contact-links">
-      <a href="/cdn-cgi/l/email-protection#304351595645424255585d515e535801000470575d51595c1e535f5d" class="contact-link">
-        <span>✉</span> <span class="__cf_email__" data-cfemail="f380929a95868181969b9e929d909bc2c3c7b3949e929a9fdd909c9e">[email&#160;protected]</span>
+      <a href="#" class="contact-link" id="email-link" onclick="this.href='mai'+'lto:'+'saifurrehmanch104'+'@'+'gmail.com';return true;">
+        <span>✉</span> <span id="email-display"></span>
       </a>
+      <script>
+        (function(){
+          var u='saifurrehmanch104';
+          var d='gmail.com';
+          document.getElementById('email-display').textContent = u+'@'+d;
+        })();
+      </script>
       <a href="tel:+923099991500" class="contact-link">
         <span>📞</span> +92 309-9991500
       </a>
